@@ -122,13 +122,21 @@
 			isa = PBXGroup;
 			children = (
 				79F4DE84256F1C8100B44ADE /* TasksViewController.swift */,
+				79F4DEC7256F533C00B44ADE /* Model */,
+			);
+			path = TasksController;
+			sourceTree = "<group>";
+		};
+		79F4DEC7256F533C00B44ADE /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				79F4DEAB256F46C600B44ADE /* Data.swift */,
-				79F4DEAC256F46C600B44ADE /* GetAllTasksModel.swift */,
 				79F4DEB7256F480600B44ADE /* AddTaskModel.swift */,
+				79F4DEAC256F46C600B44ADE /* GetAllTasksModel.swift */,
 				79F4DEBA256F484F00B44ADE /* DeleteTaskModel.swift */,
 				79F4DEBD256F4A1100B44ADE /* EditTaskModel.swift */,
 			);
-			path = TasksController;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9EB89B0BC2866A36C61FF0D6 /* Frameworks */ = {
